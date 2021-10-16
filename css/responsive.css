@@ -1,0 +1,185 @@
+@media only screen and (max-width: 991px) {
+  .ReserveDatePickerItems .ReserveMenuitems {
+    height: 100px;
+  }
+  .ReserveDatePickerItems .ReserveMenuitems .ReserveMenuitemsUp h5 {
+    font-size: 12px;
+  }
+  .ReserveDatePickerItems .ReserveMenuitems .ReserveMenuitemsBottom h5 {
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .SendMessageToIndexInDatePicker {
+    border-radius: 3px;
+    max-height: 98%;
+  }
+  .ReserveDatePickerItems .ReserveMenuitems {
+    border-radius: 3px 3px 0 0;
+  }
+  .ReserveDatePickerItems .ReserveMenuitems .ReserveMenuitemsUp {
+    border-radius: 3px 3px 0 0;
+  }
+  .ReserveDatePickerItems .ReserveMenuitems .ReserveMenuitemsBottom {
+    border-radius: 0 0 3px 3px;
+  }
+  .ReserveDatePickerItemsLeft .ReserveDatePickerItemsLeftUpper {
+    border-radius: 3px;
+  }
+  .ReserveDatePickerItemsLeftData {
+    border-radius: 3px;
+  }
+  .ReserveDatePickerItems .ReserveMenuitems .ReserveMenuitemsUp h5 {
+    font-size: 11px;
+  }
+  .ReserveDatePickerItems .ReserveMenuitems .ReserveMenuitemsBottom h5 {
+    font-size: 10px;
+  }
+  /* width */
+  .ReserveMenu::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 7px;
+    background-color: #fff;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .SendMessageToIndexInDatePicker {
+    max-height: 98%;
+    width: 93%;
+    overflow-y: auto;
+  }
+  .SendMessageToIndexInDatePicker {
+    padding: 10px;
+  }
+  .SendMessageToIndexInDatePicker .CloseBtnForMoneyAskInDatePicker {
+    left: 10px;
+    top: 10px;
+  }
+  .ReserveDatePickerItems {
+    flex-direction: column-reverse;
+  }
+  .ReserveDatePickerItems {
+    width: 100%;
+  }
+  .ReserveDatePickerItems .ReserveDatePickerItemsLeft {
+    width: 100%;
+    margin-top: 10px;
+    overflow-y: auto;
+    height: 100%;
+    max-height: 80vh;
+  }
+  .SendMessageToIndexInDatePicker h4 {
+    width: 100%;
+    font-size: 17px;
+  }
+  .ReserveDatePickerItems .ReserveMenuitems {
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3px;
+    margin: 0 0 -8px 0;
+  }
+  .ReserveDatePickerItems .ReserveMenuitems .ReserveMenuitemsUp {
+    height: 100%;
+    width: 50%;
+    border-radius: 0 0 3px 3px;
+  }
+  .ReserveDatePickerItems .ReserveMenuitems .ReserveMenuitemsBottom {
+    height: 100%;
+    width: 50%;
+    border-radius: 3px 0 0 3px;
+    background-color: #fff;
+  }
+  .ReserveDatePickerItems .ReserveMenuitems .ReserveMenuitemsUp h5 {
+    font-size: 14px;
+    padding-top: 3px;
+    color: #1a1a1a;
+  }
+  .ReserveDatePickerItems .ReserveMenuitems .ReserveMenuitemsBottom h5 {
+    font-size: 14px;
+    color: #1a1a1a;
+    padding-top: 3px;
+  }
+  .ReserveDatePickerItemsLeft .ReserveDatePickerItemsLeftUpper {
+    width: 100%;
+    right: 0;
+  }
+  .ReserveDatePickerItemsLeftData {
+    width: 80px;
+    margin: 5px 3px;
+  }
+  .SendMessageToIndexInDatePicker h4 {
+    margin-bottom: -2px;
+    padding-bottom: 2px;
+  }
+  .ReserveDatePickerItems .ReserveDatePickerItemsLeft {
+    padding-right: 0;
+  }
+  .DPILDNum h6 {
+    font-size: 15px;
+  }
+  .DPILText h6 {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .SendMessageToIndexInReverseMenu {
+    width: 96%;
+    min-width: auto;
+    height: 90vh;
+  }
+
+  .ReserveDatePickerItems .ReserveMenuitems {
+    /* height: 60px; */
+  }
+  .ReserveDatePickerItems .ReserveMenuitems .ReserveMenuitemsUp h5 {
+    font-size: 14px;
+  }
+  .ReserveDatePickerItems .ReserveMenuitems .ReserveMenuitemsBottom h5 {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .SendMessageToIndexInReverseMenu {
+    width: 100%;
+    min-width: auto;
+    height: 100vh;
+  }
+  .ReserveMenu {
+    max-height: 82vh;
+  }
+  .ReserveMenu .ReserveMenuitems {
+    height: 80px;
+  }
+  .ReserveMenu .ReserveMenuitems .ReserveMenuitemsUp h5 {
+    font-size: 10px;
+  }
+  .ReserveMenu .ReserveMenuitems .ReserveMenuitemsBottom h5 {
+    font-size: 9px;
+  }
+}
+
+@media only screen and (max-width: 333px) {
+  .SendMessageToIndexInReverseMenu {
+    width: 100%;
+    min-width: auto;
+    height: 100vh;
+  }
+  .ReserveMenu {
+    max-height: 82vh;
+  }
+  .ReserveMenu .ReserveMenuitems {
+    height: 60px;
+  }
+  .ReserveMenu .ReserveMenuitems .ReserveMenuitemsUp h5 {
+    font-size: 10px;
+  }
+  .ReserveMenu .ReserveMenuitems .ReserveMenuitemsBottom h5 {
+    font-size: 8px;
+  }
+  .post-other-images img {
+    height: 115px;
+  }
+}
