@@ -116,7 +116,8 @@ $.fn.datepickerFa = function (y = 0, m = 0) {
         }
 
         if (month == today.jMonth() && year == today.jYear())
-            $(".ReserveDatePickerItemsLeftData[id^='dt-days-num-" + day + "']").addClass("Today");
+            $(".ReserveDatePickerItemsLeftData[id^='dt-days-num-" + day + "-mth-" + (month + 1) + "']").addClass("Today");
+
     });
 };
 
